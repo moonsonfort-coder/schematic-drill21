@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "schematic-drill",
+  "version": "${version}",
+  "name": "Schematic Drill",
+  "description": "Mines out a schematic area with a 3x3 drill, with a live time estimate and a dashboard GUI.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.schematicdrill.SchematicDrillAddon"]
+  },
+  "custom": {
+    "meteor-client:color": "90,200,120"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.11",
+    "meteor-client": "*"
+  }
+}
